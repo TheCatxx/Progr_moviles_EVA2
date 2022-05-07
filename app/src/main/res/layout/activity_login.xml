@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/launcher"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:src="@drawable/logo"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="40dp"
+        android:layout_height="60dp"
+        android:textColorHint="@color/launcher"
+        app:boxCornerRadiusTopStart="8dp"
+        app:boxCornerRadiusTopEnd="8dp">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edtCorreo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="@color/white"
+            android:hint="Correo"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/launcher"
+            android:textSize="18sp"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="40dp"
+        android:layout_height="60dp"
+        app:passwordToggleEnabled="true"
+        app:passwordToggleTint="@color/launcher"
+        android:textColorHint="@color/launcher"
+        app:boxCornerRadiusTopStart="8dp"
+        app:boxCornerRadiusTopEnd="8dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edtClave"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="@color/white"
+            android:hint="Clave"
+            android:inputType="textPassword"
+            android:textColor="@color/launcher"
+            android:textSize="18sp"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btnIngresar"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_margin="40dp"
+        android:text="Iniciar Sesion"
+        android:textSize="18sp"
+        app:backgroundTint="@color/boton"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginEnd="120dp">
+
+        <ImageView
+            android:id="@+id/fb"
+            android:layout_width="50dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="20dp"
+            android:src="@drawable/facebook"/>
+        <ImageView
+            android:id="@+id/wp"
+            android:layout_width="50dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="20dp"
+            android:layout_toEndOf="@+id/fb"
+            android:src="@drawable/wp"/>
+    </RelativeLayout>
+
+</LinearLayout>
