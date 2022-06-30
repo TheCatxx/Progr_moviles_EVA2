@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "604190513836",
+    "project_id": "tecsup-mobile",
+    "storage_bucket": "tecsup-mobile.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:604190513836:android:302c9328ca42cb8ffedd09",
+        "android_client_info": {
+          "package_name": "com.tecsupapp.aplicacionsensores"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "604190513836-1e25s96ftrfv12fah6sph2qln3pmimqq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiBq3ezx_ATfxXW5A19H24Zzua5kLM93Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "604190513836-1e25s96ftrfv12fah6sph2qln3pmimqq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:604190513836:android:c7d687c211108d62fedd09",
+        "android_client_info": {
+          "package_name": "com.tecsupapp.d_marco"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "604190513836-1e25s96ftrfv12fah6sph2qln3pmimqq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiBq3ezx_ATfxXW5A19H24Zzua5kLM93Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "604190513836-1e25s96ftrfv12fah6sph2qln3pmimqq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

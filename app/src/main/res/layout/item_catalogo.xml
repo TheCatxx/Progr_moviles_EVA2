@@ -4,9 +4,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_marginTop="10dp"
-    android:layout_marginEnd="10dp"
-    android:layout_marginBottom="10dp"
+    android:layout_margin="10dp"
+    android:padding="10dp"
     app:cardCornerRadius="10dp">
 
     <LinearLayout
@@ -30,6 +29,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:padding="20dp"
             android:orientation="vertical">
 
             <TextView
@@ -37,10 +37,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Nombre"
+                android:layout_marginBottom="5dp"
                 android:textSize="18sp"
-                android:layout_marginTop="5dp"
-                android:layout_marginStart="5dp"
-                android:layout_marginEnd="5dp"
                 android:textStyle="bold"
                 android:maxLines="1"
                 android:ellipsize="end"
@@ -50,8 +48,8 @@
                 android:id="@+id/textCategory"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
                 android:text="Categoria"
-                android:layout_margin="5dp"
                 android:maxLines="3"
                 android:ellipsize="end"
                 android:textStyle="italic"
@@ -61,8 +59,8 @@
                 android:id="@+id/textPrecio"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
                 android:text="Precio"
-                android:layout_margin="5dp"
                 android:ellipsize="end"
                 android:textStyle="bold"/>
 
@@ -70,8 +68,8 @@
                 android:id="@+id/textDescription"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
                 android:text="Descripcion"
-                android:layout_margin="5dp"
                 android:ellipsize="end"/>
         </LinearLayout>
     </LinearLayout>

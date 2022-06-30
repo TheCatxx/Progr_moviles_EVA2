@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">D_Marco</string>
+    <string name="channel_name">Promos</string>
+    <string name="channel_description">Canal para promocion de pedidos</string>
+    <string name="channel_id">promo</string>
+    <string name="google_maps_key">AIzaSyAiBq3ezx_ATfxXW5A19H24Zzua5kLM93Q</string>
 </resources>

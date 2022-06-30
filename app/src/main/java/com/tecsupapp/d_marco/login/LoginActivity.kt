@@ -5,9 +5,11 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.tecsupapp.d_marco.R
 import com.tecsupapp.d_marco.home.HomeActivity
+import com.tecsupapp.d_marco.main.MainFragment
 import kotlinx.android.synthetic.main.activity_login.*
 
 class LoginActivity : AppCompatActivity() {
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
@@ -16,7 +18,7 @@ class LoginActivity : AppCompatActivity() {
         actionBar?.hide()
 
         btnIngresar.setOnClickListener {
-            startActivity(Intent(this, HomeActivity::class.java))
+            startActivity(Intent(this, MainFragment::class.java))
         }
     }
 }
