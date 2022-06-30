@@ -89,4 +89,16 @@
             android:src="@drawable/wp"/>
     </LinearLayout>
 
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        ads:adUnitId="ca-app-pub-3940256099942544/6300978111"
+        android:id="@+id/adViewBanner"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="@color/teal_700"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ads:layout_constraintBottom_toBottomOf="parent"
+        ads:adSize="BANNER">
+    </com.google.android.gms.ads.AdView>
+
 </LinearLayout>

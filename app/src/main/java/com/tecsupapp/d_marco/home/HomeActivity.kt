@@ -1,19 +1,22 @@
 package com.tecsupapp.d_marco.home
 
 import android.os.Bundle
+import android.util.Log
 import android.view.Menu
-import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
-import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.recyclerview.widget.StaggeredGridLayoutManager
+import com.google.android.gms.ads.AdRequest
+import com.google.android.gms.ads.LoadAdError
+import com.google.android.gms.ads.MobileAds
+import com.google.android.gms.ads.interstitial.InterstitialAd
+import com.google.android.gms.ads.interstitial.InterstitialAdLoadCallback
 import com.tecsupapp.d_marco.R
-import com.tecsupapp.d_marco.main.PlatilloAdapter
-import com.tecsupapp.d_marco.main.Platillos
 import com.tecsupapp.d_marco.notify.NotifyFragment
-import kotlinx.android.synthetic.main.fragment_main.*
+import kotlinx.android.synthetic.main.fragment_notify.*
 
 class HomeActivity : AppCompatActivity() {
+
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -22,8 +25,9 @@ class HomeActivity : AppCompatActivity() {
         val actionBar = supportActionBar
         actionBar?.hide()
 
-
         openFragment(NotifyFragment.newInstance())
+
+
 
     }
 

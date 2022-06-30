@@ -25,14 +25,27 @@
         app:layout_constraintTop_toBottomOf="@+id/toolbarNotify"/>
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabInterstitial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_margin="20dp"
+        app:tint="@color/white"
+        android:backgroundTint="@color/red"
+        android:src="@drawable/ic_baseline_ondemand_video_24"/>
+
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fabBonification"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_margin="20dp"
-        app:tint="@color/white"
-        android:backgroundTint="@color/boton"
+        app:tint="@color/black"
+        android:backgroundTint="@color/diamond"
         android:src="@drawable/ic_baseline_monetization_on_24"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

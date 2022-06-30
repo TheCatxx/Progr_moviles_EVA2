@@ -9,5 +9,7 @@
     <color name="white">#FFFFFFFF</color>
     <color name="launcher">#2E190E</color>
     <color name="boton">#d48c3c</color>
+    <color name="red">#ff0000</color>
+    <color name="diamond">#b9f2ff</color>
     <color name="colorBackground">#EAEDEF</color>
 </resources>
