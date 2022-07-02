@@ -5,6 +5,7 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.google.android.gms.ads.AdRequest
 import com.google.android.gms.ads.MobileAds
+import com.tecsupapp.d_marco.MapsActivity
 import com.tecsupapp.d_marco.R
 import com.tecsupapp.d_marco.main.MainFragment
 import kotlinx.android.synthetic.main.activity_login.*
@@ -27,5 +28,10 @@ class LoginActivity : AppCompatActivity() {
         btnIngresar.setOnClickListener {
             startActivity(Intent(this, MainFragment::class.java))
         }
+
+        fbMaps.setOnClickListener {
+            startActivity(Intent(this, MapsActivity::class.java))
+        }
+
     }
 }

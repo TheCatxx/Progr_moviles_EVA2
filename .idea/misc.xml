@@ -4,10 +4,13 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/TECSUP/CICLO IV/Programacion en Moviles/Android Studio/D_Marco/app/src/main/res/drawable/ic_baseline_food_bank_24.xml" value="0.209" />
+        <entry key="..\:/TECSUP/CICLO IV/Programacion en Moviles/Android Studio/D_Marco/app/src/main/res/drawable/ic_baseline_map_24.xml" value="0.2215" />
+        <entry key="..\:/TECSUP/CICLO IV/Programacion en Moviles/Android Studio/D_Marco/app/src/main/res/drawable/ic_baseline_restaurant_24.xml" value="0.2215" />
         <entry key="..\:/TECSUP/CICLO IV/Programacion en Moviles/Android Studio/D_Marco/app/src/main/res/layout/activity_home.xml" value="0.25" />
         <entry key="..\:/TECSUP/CICLO IV/Programacion en Moviles/Android Studio/D_Marco/app/src/main/res/layout/activity_launcher.xml" value="0.25" />
         <entry key="..\:/TECSUP/CICLO IV/Programacion en Moviles/Android Studio/D_Marco/app/src/main/res/layout/activity_login.xml" value="0.25" />
         <entry key="..\:/TECSUP/CICLO IV/Programacion en Moviles/Android Studio/D_Marco/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/TECSUP/CICLO IV/Programacion en Moviles/Android Studio/D_Marco/app/src/main/res/layout/activity_maps.xml" value="0.33" />
         <entry key="..\:/TECSUP/CICLO IV/Programacion en Moviles/Android Studio/D_Marco/app/src/main/res/layout/fragment_main.xml" value="0.25" />
         <entry key="..\:/TECSUP/CICLO IV/Programacion en Moviles/Android Studio/D_Marco/app/src/main/res/layout/fragment_notify.xml" value="0.33" />
         <entry key="..\:/TECSUP/CICLO IV/Programacion en Moviles/Android Studio/D_Marco/app/src/main/res/layout/item_catalogo.xml" value="0.33" />
